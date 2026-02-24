@@ -1,0 +1,23 @@
+    /* general carousel image style */
+    .carousel-img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* vertical crop positioning */
+    .crop-top {
+      object-position: top;      /* show top part of image */
+    }
+    .crop-center {
+      object-position: center;   /* default */
+    }
+    .crop-bottom {
+      object-position: bottom;   /* show bottom part of image */
+    }
+
+    /* finer vertical adjustments */
+    .crop-20 { object-position: 50% 20%; }  /* show mostly the top */
+    .crop-40 { object-position: 50% 40%; }  /* shift slightly down */
+    .crop-60 { object-position: 50% 60%; }  /* show more of the bottom */
+    .crop-80 { object-position: 50% 80%; }  /* almost bottom aligned */

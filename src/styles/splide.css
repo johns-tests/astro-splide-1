@@ -22,3 +22,13 @@
 .crop-60 { object-position: 50% 60%; }  /* show more of the bottom */
 .crop-80 { object-position: 50% 80%; }  /* almost bottom aligned */
 
+.details {
+  position: relative;
+  bottom: 94px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+  transition: bottom .2s;
+  text-align: center;
+  background-color: lightgreen;
+}

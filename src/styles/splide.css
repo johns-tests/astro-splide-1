@@ -50,7 +50,7 @@
   height: 40%;
   bottom: -20%;
   left: 15%;
-  background-color: rgba(191, 191, 255, 0.8);
+  background-color: rgba(239, 239, 231, 0.8);
   color: black;
   transition: bottom 1s, background-color 1s;
 }
@@ -58,6 +58,6 @@
 .card > a:hover .details,
 .card > a:focus .details {
   bottom: 0;
-  background-color: rgba(191, 191, 255, 1.0);
+  background-color: rgba(239, 239, 231, 1.0);
 }
 
